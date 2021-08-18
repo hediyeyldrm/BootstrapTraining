@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Carousel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <h2>CAROUSEL EXAMPLE</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="https://cdn.pixabay.com/photo/2021/08/10/10/06/pinwheels-6535595_960_720.jpg" style="width:100%">
+            </div>
+            <div class="item">
+              <img src="https://cdn.pixabay.com/photo/2021/08/03/11/48/canal-6519196_960_720.jpg" style="width:100%">
+            </div>
+            <div class="item">
+              <img src="https://cdn.pixabay.com/photo/2019/03/07/13/00/clouds-4040132_960_720.jpg" style="width:100%">
+            </div
+          </div>
+          <!-- SAG VE SOL KONTROLLER -->
+          <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a href="#myCarousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only"></span>
+          </a>
+
+        </div>
+    </div>
+  </body>
+</html>
